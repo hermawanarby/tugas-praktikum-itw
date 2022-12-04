@@ -1,0 +1,58 @@
+.container {
+    width: 100px;
+    height: 100px;
+}
+
+.kotak {
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: all 2s ease;
+    /* chrome */
+    -webkit-transition: all 2s ease;
+    /* mozilla */
+    -moz-transition: all 2s ease;
+    /* Internet Explore */
+    -ms-transition: all 2s ease;
+    /* opera */
+    -o-transition: all 2s ease;
+}
+
+.container:hover .kotak {
+    width: 300px;
+    height: 300px;
+    background-color: pink;
+    line-height: 300px;
+    font-size: 50px;
+    left: 600px;
+    top: 300px;
+    border-radius: 2000px;
+
+    box-shadow: 0 0 30px rgb(0, 0, 0, 1);
+    /* chrome */
+    -webkit-box-shadow: all 2s ease;
+    /* mozilla */
+    -moz-box-shadow: all 2s ease;
+    /* Internet Explore */
+    -ms-box-shadow: all 2s ease;
+    /* opera */
+    -o-box-shadow: all 2s ease;
+
+    transform: rotate(360deg);
+    /* chrome */
+    -webkit-transform: all 2s ease;
+    /* mozilla */
+    -moz-transform: all 2s ease;
+    /* Internet Explore */
+    -ms-transform: all 2s ease;
+    /* opera */
+    -o-transform: all 2s ease;
+}

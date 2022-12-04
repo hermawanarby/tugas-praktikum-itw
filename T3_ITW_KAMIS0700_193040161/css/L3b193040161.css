@@ -1,0 +1,30 @@
+body {
+    background: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-family: Comic Sans MS;
+    font-size: 60px;
+    color: darkblue;
+    text-align: center;
+}
+
+h3 a {
+    font-variant: small-caps;
+    color: white;
+}
+
+h4 {
+    text-align: right;
+    font-style: italic;
+}
+
+.paragraf1 {
+    text-align: center;
+    color: orange;
+}
+
+.paragraf2 {
+    text-align: right;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 
+    Nama: Hermawan Arby
+    NPM : 193040161    
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tugas Form</title>
+</head>
+
+<body>
+    <form>
+        <a href="index.html">
+            <h3>Back to Home</h3>
+        </a>
+        <h1>FORM PEMESANAN TOKO BUKU ONLINE</h1>
+        <table border="0" cellspacing="0" cellpadding="10">
+            <tr align="left">
+                <th colspan="3">Akun</th>
+            </tr>
+            <tr>
+                <td>Username</td>
+                <td>:</td>
+                <td>
+                    <input type="text" name="username">
+                </td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>:</td>
+                <td>
+                    <input type="password" name="password">
+                </td>
+            </tr>
+            <tr align="left">
+                <th colspan="3">Pemesan</th>
+            </tr>
+            <tr>
+                <td>Fullname</td>
+                <td>:</td>
+                <td>
+                    <input type="text" name="fullname">
+                </td>
+            </tr>
+            <tr>
+                <td>E-mail</td>
+                <td>:</td>
+                <td>
+                    <input type="email" name="email">
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="3">Buku</td>
+                <td rowspan="3">:</td>
+                <td>
+                    <input type="checkbox" name="ti" value="ti"> Teknologi Internet
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="pw" value="pw"> Pemrograman Web
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="fd" value="fd"> Fullstack Designer
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">Metode Pembayaran</td>
+                <td rowspan="2">:</td>
+                <td>
+                    <input type="radio" name="payment" value="tunai"> Tunai
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="payment" value="nontunai"> Non Tunai
+                </td>
+            </tr>
+            <tr>
+                <td>Jasa Pengiriman</td>
+                <td>:</td>
+                <td>
+                    <select>
+                        <option value="jasaPengiriman" selected>--Pilih Jasa Pengiriman</option>
+                        <option value="jne">JNE</option>
+                        <option value="jnt">J&T</option>
+                        <option value="pos">POS Indonesia</option>
+                        <option value="tik">Tik</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Alamat Pengiriman</td>
+                <td>:</td>
+                <td>
+                    <textarea cols="39" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <button type="submit">submit</button>
+                    <button type="reset">reset</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

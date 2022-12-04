@@ -1,0 +1,71 @@
+.container {
+    border: 1px solid black;
+    width: 800px;
+    margin: auto;
+    /* margin-top: 500px; */
+    border-style: double;
+    border-width: 5px;
+    border-color: seagreen;
+    background-color: lightblue;
+    font-family: arial;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 40px;
+    margin-top: -22px;
+    background-color: darkblue;
+    line-height: 40px;
+    color: red;
+}
+
+i,
+b {
+    color: white;
+}
+
+h3 {
+    padding-top: 30px;
+    padding-left: 0px;
+    color: red;
+    text-align: center;
+}
+
+p {
+    padding: 8px;
+    text-indent: 20px;
+    text-align: justify;
+}
+
+#p1 {
+    padding-top: 0px;
+}
+
+img {
+    width: 260px;
+    height: 150px;
+    padding-top: 20px;
+}
+
+.image {
+    /* margin: atas - kanan - bawah- kiri */
+    margin: auto 260px;
+    width: 200px;
+    height: 150px;
+}
+
+.footer {
+    height: 50px;
+    background-color: darkblue;
+    color: white;
+    line-height: 35px;
+}
+
+#pfooter {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}

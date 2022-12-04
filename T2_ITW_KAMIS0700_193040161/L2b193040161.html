@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Latihan 2 - Form + Tabel</title>
+</head>
+
+<body>
+    <form>
+        <a href="index.html">
+            <h3>Back to Home</h3>
+        </a>
+        <table border="2" cellspacing="0" cellpadding="10">
+            <tr style="background-color: gray;">
+                <th colspan="3">INPUT DATA MAHASISWA</th>
+            </tr>
+            <tr>
+                <td>Username</td>
+                <td>:</td>
+                <td>
+                    <input type="text" name="username">
+                </td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>:</td>
+                <td>
+                    <input type="password" name="password">
+                </td>
+            </tr>
+            <tr>
+                <td>Fullname</td>
+                <td>:</td>
+                <td>
+                    <input type="text" name="fullname">
+                </td>
+            </tr>
+            <tr>
+                <td>E-mail</td>
+                <td>:</td>
+                <td>
+                    <input type="email" name="email">
+                </td>
+            </tr>
+            <tr>
+                <td>Agama</td>
+                <td>:</td>
+                <td>
+                    <select>
+                        <option value="agama" selected>--Pilih Agama--</option>
+                        <option value="islam">Islam</option>
+                        <option value="Kristen">Kristen</option>
+                        <option value="hindu">Hindu</option>
+                        <option value="budha">Budha</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="jenisKel" value="laki-laki"> Laki-laki
+                    <input type="radio" name="jenisKel" value="perempuan"> Perempuan
+                </td>
+            </tr>
+            <tr>
+                <td>Hobi</td>
+                <td>:</td>
+                <td>
+                    <input type="checkbox" name="musik" value="musik"> Musik
+                    <input type="checkbox" name="olahraga" value="olahraga"> Olahraga
+                    <input type="checkbox" name="gaming" value="gaming"> Gaming
+                    <input type="checkbox" name="lainnya" value="lainnya"> Lainnya
+                </td>
+            </tr>
+            <tr>
+                <td>Profil Singkat</td>
+                <td>:</td>
+                <td>
+                    <textarea cols="39" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" align="right">
+                    <button type="button">Input</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+body {
+    font-family: georgia;
+    background-color: #999999;
+}
+
+p {
+    /* atas-kanan-bawah-kiri */
+    margin: 20px auto;
+}
+
+#page-wrap {
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+#content {
+    width: 460px;
+    margin-right: 20px;
+    padding-right: 20px;
+    border-right: 1px solid #333333;
+    min-height: 500px;
+    float: left;
+}
+
+.kotak {
+    width: 80px;
+    height: 100px;
+    /* atas, kanan, bawah, kiri */
+    margin: 0 10px 10px 0;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+#sidebar {
+    width: 180px;
+    float: left;
+}
+
+#footer {
+    text-align: center;
+    font-size: 12px;
+    background-color: #333333;
+    font-family: verdana;
+    color: white;
+    width: 740px;
+    height: 40px;
+    margin: 0 auto;
+    padding-top: 20px;
+}

@@ -1,0 +1,54 @@
+.container {
+    border: 1px solid black;
+    width: 800px;
+    margin: auto;
+    /* margin-top: 500px; */
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 40px;
+    margin-top: -22px;
+}
+
+h3 {
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+p {
+    padding: 8px;
+    text-indent: 20px;
+    text-align: justify;
+}
+
+#p1 {
+    padding-top: 0px;
+}
+
+img {
+    width: 260px;
+    height: 150px;
+    padding-top: 20px;
+}
+
+.image {
+    /* margin: atas - kanan - bawah- kiri */
+    margin: auto 260px;
+    width: 200px;
+    height: 150px;
+}
+
+.footer {
+    height: 30px;
+    background-color: black;
+}
+
+#pfooter {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
